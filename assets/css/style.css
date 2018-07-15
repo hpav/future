@@ -1,0 +1,108 @@
+body, form {
+    padding: 0;
+    margin: 0;
+}
+
+.header-block h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    line-height: 1.333;
+    float: left;
+    font-family: Verdana;
+    display: inline-block;
+}
+
+.header-block img {
+    float: right;
+    display: inline-block;
+    margin-right: 5%;
+}
+
+.header-block a, .footer-block a {
+    color: black;
+}
+
+.header-block p, .footer-block p {
+    font-weight: bold;
+}
+
+.header-block, .footer-block {
+    background-color: rgb(249, 249, 249);
+    display: inline-block;
+    width: 95%;
+    padding-left: 5%;
+}
+
+.header-block .text-block {
+    float: left;
+}
+
+.footer-block .text-block {
+    float: left;
+}
+
+.footer-block img {
+    float: left;
+    display: inline-block;
+    margin-right: 5%;
+    width: 10%;
+}
+
+.main {
+    background-color: rgb(238, 238, 238);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.message-title .user-name {
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 2%;
+}
+
+.message-title .date {
+    font-size: 13px;
+    padding-right: 5%;
+}
+
+.comment-item {
+    padding-top: 2%;
+}
+
+.message-body {
+    margin-top: 1%;
+}
+
+.form-block {
+    width: 40%;
+}
+
+.form-block h2 {
+    font-family: Verdana;
+}
+
+.form-block input {
+    width: 100%;
+    margin: 2%;
+    height: 5%;
+    font-size: 18px;
+    border: none;
+}
+
+.form-block textarea {
+    width: 100%;
+    margin: 2%;
+    height: 10%;
+    border: none;
+    font-size: 18px;
+}
+
+.form-block button {
+    margin-left: 75%;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 5%;
+    font-size: large;
+}
